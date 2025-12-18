@@ -101,6 +101,22 @@ fig.update_layout(
     title=f"{ticker} Stock Price Prediction"
 )
 
+# add range selector and slider
+fig.update_layout(
+    xaxis=dict(
+        rangeselector=dict(
+            buttons=list([
+                dict(count=6, label="6m", step="month", stepmode="backward"),
+                dict(count=1, label="1y", step="year", stepmode="backward"),
+                dict(count=3, label="3y", step="year", stepmode="backward"),
+                dict(step="all")
+            ])
+        ),
+        rangeslider=dict(visible=True),
+        type="date"
+    )
+)
+
 # print summary
 print(f"\n{'-'*80}")
 print(f"{ticker} - 12 Month Price Forecast Summary")
