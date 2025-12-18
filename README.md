@@ -92,7 +92,7 @@ Python based stock price movement prediction solution using a simple Linear Auto
 
 ## References
 
-- A part of the developing machine learning model code was referenced from my project submitted in my Advanced Python class, Fordham University
+- A part of the data extraction code was referenced from my project submitted in my Advanced Python class, Fordham University
 - Alpha Vantage API documentation
 - PyTorch Documentation
 - Plotly Documentation
