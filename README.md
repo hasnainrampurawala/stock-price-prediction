@@ -1,5 +1,5 @@
 # stock-price-prediction
-Python based stock price movement prediction solution using a simple Linear Auto Regressive machine learning model trained on past 5 years of monthly adjusted stock price data of NVDA, AMD and INTC. The model is used to predict the next 12 months of stock prices of the companies. Finally, a dashboard is displayed 
+Python based stock price movement prediction solution using a simple Linear Auto Regressive machine learning model trained on past 5 years of monthly adjusted stock price data of NVDA, AMD and INTC. The model is used to predict the next 12 months of stock prices of the companies. Finally, an interactive dashboard is displayed for the respective companies.
 
 # Stock Price Predictor
 
@@ -7,7 +7,7 @@ Python based stock price movement prediction solution using a simple Linear Auto
 ## Features
 
 - Extracts 5 years of monthly adjusted stock data using the Alpha Vantage API
-- Trains a Linear Auto Regressive machine learning model using PyTorch
+- Trains a Linear Auto Regressive model using PyTorch
 - Generates 12 month price forecasts for each stock
 - Displays an interactive visualization dashboard using Plotly
 - Supports NVDA, AMD, and INTC stock symbols as of now
