@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import time
 import json
 
-# load api key from .env file
 load_dotenv()
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
